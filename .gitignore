@@ -1,0 +1,11 @@
+bin
+develop-eggs
+parts
+
+extends-cache
+src/*.egg-info
+var/log/*.log
+
+.installed.cfg
+textindexng3.log
+*.pyc
