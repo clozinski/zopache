@@ -1,0 +1,16 @@
+<configure xmlns="http://namespaces.zope.org/browser">
+
+  <page
+     name="favicon.ico"
+     for="*"
+     class=".zmi.FavIcon"
+     permission="zope.Public"
+     layer="zope.app.basicskin.IDefaultBrowserLayer" />
+
+  <resource
+     name="favicon.ico"
+     file="resources/images/favicon.ico"
+     permission="zope.Public"
+     layer="zope.app.basicskin.IDefaultBrowserLayer" />
+
+</configure>

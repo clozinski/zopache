@@ -81,6 +81,7 @@
 
 	<include package="zopache.pagetemplate" />
 	<include package="zopache.pythonscript" />
+	<include package="zopache.webapp" />
 
 	<scheduler:handler />
 
