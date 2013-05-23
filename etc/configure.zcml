@@ -79,6 +79,9 @@
 	<include package="ztfy.mail" />
 	<include package="ztfy.scheduler" />
 
+	<include package="zopache.pagetemplate" />
+	<include package="zopache.pythonscript" />
+
 	<scheduler:handler />
 
 </configure>

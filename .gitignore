@@ -5,7 +5,10 @@ parts
 extends-cache
 src/*.egg-info
 var/log/*.log
+etc/zope-debug.conf
+etc/zope-deploy.conf
 
 .installed.cfg
+paster.log
 textindexng3.log
 *.pyc

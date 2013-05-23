@@ -1,6 +1,6 @@
 <configure
    xmlns="http://namespaces.zope.org/zope"
-   i18n_domain="zopeache.webapp">
+   i18n_domain="zopache.webapp">
 
 <!-- This file is mostly identical to debug.zcml, except the manager password -->
 

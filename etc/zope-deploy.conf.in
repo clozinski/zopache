@@ -1,0 +1,33 @@
+site-definition ${buildout:directory}/etc/deploy.zcml
+
+<zodb>
+
+  <filestorage>
+    path ${buildout:directory}/var/filestorage/Data.fs
+    blob-dir ${buildout:directory}/var/filestorage/blobs
+  </filestorage>
+
+# Uncomment this if you want to connect to a ZEO server instead:
+#  <zeoclient>
+#    server localhost:8100
+#    storage 1
+#    # ZEO client cache, in bytes
+#    cache-size 20MB
+#    # Uncomment to have a persistent disk cache
+#    #client zeo1
+#    blob-dir ${buildout:directory}/var/zeostorage/blobs
+#  </zeoclient>
+
+</zodb>
+
+<eventlog>
+  <logfile>
+    path ${buildout:directory}/var/log/z3.log
+    formatter zope.exceptions.log.Formatter
+  </logfile>
+
+#  <logfile>
+#    path STDOUT
+#    formatter zope.exceptions.log.Formatter
+#  </logfile>
+</eventlog>

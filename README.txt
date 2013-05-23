@@ -1,8 +1,8 @@
-===============
-zopeache.webapp
-===============
+==============
+zopache.webapp
+==============
 
-(Document the zopeache.webapp project here.)
+(Document the zopache.webapp project here.)
 This project has been initially created with ZTFY.webapp version 1.1.4
 
 
@@ -62,7 +62,7 @@ and use a process monitoring tool such as supervisord.
 mod_wsgi
 ========
 
-A configuration file is available in etc/mod_wsgi/zopeache.webapp file.
+A configuration file is available in etc/mod_wsgi/zopache.webapp file.
 
 It allows you to deploy your site under apache2 with mod_wsgi module, and
 already contains required options for mod_ssl and mod_upload_progress modules
